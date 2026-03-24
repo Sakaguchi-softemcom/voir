@@ -1,0 +1,222 @@
+/* ═══ Voir — Theme Definitions ═══ */
+
+/* ─── LIGHT THEMES ───────────────────────────────────────── */
+
+[data-theme="solarized-light"] {
+  --bg-primary: #fdf6e3; --bg-secondary: #eee8d5; --bg-tertiary: #e8e1cc;
+  --bg-hover: #e0d9c3; --bg-active: #d6cfb7;
+  --text-primary: #657b83; --text-secondary: #586e75; --text-tertiary: #93a1a1;
+  --border-color: #d3cbb7; --border-subtle: #eee8d5;
+  --accent: #268bd2; --accent-hover: #1a6fb0;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.08); --shadow-md: 0 4px 12px rgba(0,0,0,0.08); --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+  --md-bg: #fdf6e3; --md-text: #657b83; --md-heading: #073642; --md-link: #268bd2;
+  --md-code-bg: #eee8d5; --md-code-text: #657b83;
+  --md-blockquote-border: #d3cbb7; --md-blockquote-text: #93a1a1;
+  --md-table-border: #d3cbb7; --md-table-row-alt: #eee8d5; --md-hr: #d3cbb7;
+}
+
+[data-theme="one-light"] {
+  --bg-primary: #fafafa; --bg-secondary: #f0f0f0; --bg-tertiary: #e5e5e6;
+  --bg-hover: #dbdbdc; --bg-active: #d0d0d1;
+  --text-primary: #383a42; --text-secondary: #696c77; --text-tertiary: #a0a1a7;
+  --border-color: #d0d0d0; --border-subtle: #e5e5e6;
+  --accent: #4078f2; --accent-hover: #2a60d4;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.06); --shadow-md: 0 4px 12px rgba(0,0,0,0.06); --shadow-lg: 0 8px 24px rgba(0,0,0,0.08);
+  --md-bg: #fafafa; --md-text: #383a42; --md-heading: #383a42; --md-link: #4078f2;
+  --md-code-bg: #f0f0f0; --md-code-text: #383a42;
+  --md-blockquote-border: #d0d0d0; --md-blockquote-text: #a0a1a7;
+  --md-table-border: #e0e0e0; --md-table-row-alt: #f0f0f0; --md-hr: #e0e0e0;
+}
+
+[data-theme="catppuccin-latte"] {
+  --bg-primary: #eff1f5; --bg-secondary: #e6e9ef; --bg-tertiary: #dce0e8;
+  --bg-hover: #ccd0da; --bg-active: #bcc0cc;
+  --text-primary: #4c4f69; --text-secondary: #5c5f77; --text-tertiary: #8c8fa1;
+  --border-color: #ccd0da; --border-subtle: #dce0e8;
+  --accent: #8839ef; --accent-hover: #7c2fdb;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.06); --shadow-md: 0 4px 12px rgba(0,0,0,0.06); --shadow-lg: 0 8px 24px rgba(0,0,0,0.08);
+  --md-bg: #eff1f5; --md-text: #4c4f69; --md-heading: #4c4f69; --md-link: #1e66f5;
+  --md-code-bg: #e6e9ef; --md-code-text: #4c4f69;
+  --md-blockquote-border: #ccd0da; --md-blockquote-text: #8c8fa1;
+  --md-table-border: #ccd0da; --md-table-row-alt: #e6e9ef; --md-hr: #ccd0da;
+}
+
+[data-theme="gruvbox-light"] {
+  --bg-primary: #fbf1c7; --bg-secondary: #f2e5bc; --bg-tertiary: #ebdbb2;
+  --bg-hover: #d5c4a1; --bg-active: #bdae93;
+  --text-primary: #3c3836; --text-secondary: #504945; --text-tertiary: #928374;
+  --border-color: #d5c4a1; --border-subtle: #ebdbb2;
+  --accent: #076678; --accent-hover: #427b58;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.08); --shadow-md: 0 4px 12px rgba(0,0,0,0.08); --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+  --md-bg: #fbf1c7; --md-text: #3c3836; --md-heading: #3c3836; --md-link: #076678;
+  --md-code-bg: #ebdbb2; --md-code-text: #3c3836;
+  --md-blockquote-border: #d5c4a1; --md-blockquote-text: #928374;
+  --md-table-border: #d5c4a1; --md-table-row-alt: #f2e5bc; --md-hr: #d5c4a1;
+}
+
+[data-theme="tokyo-night-light"] {
+  --bg-primary: #d5d6db; --bg-secondary: #cbccd1; --bg-tertiary: #c0c1c6;
+  --bg-hover: #b4b5ba; --bg-active: #a9aab0;
+  --text-primary: #343b59; --text-secondary: #565a6e; --text-tertiary: #9699a3;
+  --border-color: #b4b5ba; --border-subtle: #c0c1c6;
+  --accent: #34548a; --accent-hover: #2b4372;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.08); --shadow-md: 0 4px 12px rgba(0,0,0,0.08); --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+  --md-bg: #d5d6db; --md-text: #343b59; --md-heading: #343b59; --md-link: #34548a;
+  --md-code-bg: #cbccd1; --md-code-text: #343b59;
+  --md-blockquote-border: #b4b5ba; --md-blockquote-text: #9699a3;
+  --md-table-border: #c0c1c6; --md-table-row-alt: #cbccd1; --md-hr: #b4b5ba;
+}
+
+/* ─── DARK THEMES ────────────────────────────────────────── */
+
+[data-theme="github-dimmed"] {
+  --bg-primary: #22272e; --bg-secondary: #2d333b; --bg-tertiary: #373e47;
+  --bg-hover: #3d444d; --bg-active: #444c56;
+  --text-primary: #adbac7; --text-secondary: #768390; --text-tertiary: #636e7b;
+  --border-color: #444c56; --border-subtle: #373e47;
+  --accent: #539bf5; --accent-hover: #6cb6ff;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.3); --shadow-md: 0 4px 12px rgba(0,0,0,0.3); --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+  --md-bg: #22272e; --md-text: #adbac7; --md-heading: #adbac7; --md-link: #539bf5;
+  --md-code-bg: #2d333b; --md-code-text: #adbac7;
+  --md-blockquote-border: #444c56; --md-blockquote-text: #768390;
+  --md-table-border: #373e47; --md-table-row-alt: #2d333b; --md-hr: #373e47;
+}
+
+[data-theme="dracula"] {
+  --bg-primary: #282a36; --bg-secondary: #21222c; --bg-tertiary: #343746;
+  --bg-hover: #3c3f58; --bg-active: #44475a;
+  --text-primary: #f8f8f2; --text-secondary: #bd93f9; --text-tertiary: #6272a4;
+  --border-color: #44475a; --border-subtle: #343746;
+  --accent: #bd93f9; --accent-hover: #caa9fa;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.4); --shadow-md: 0 4px 12px rgba(0,0,0,0.4); --shadow-lg: 0 8px 24px rgba(0,0,0,0.5);
+  --md-bg: #282a36; --md-text: #f8f8f2; --md-heading: #f8f8f2; --md-link: #8be9fd;
+  --md-code-bg: #44475a; --md-code-text: #f8f8f2;
+  --md-blockquote-border: #6272a4; --md-blockquote-text: #6272a4;
+  --md-table-border: #44475a; --md-table-row-alt: #21222c; --md-hr: #44475a;
+}
+
+[data-theme="nord"] {
+  --bg-primary: #2e3440; --bg-secondary: #3b4252; --bg-tertiary: #434c5e;
+  --bg-hover: #4c566a; --bg-active: #4c566a;
+  --text-primary: #eceff4; --text-secondary: #d8dee9; --text-tertiary: #81a1c1;
+  --border-color: #4c566a; --border-subtle: #434c5e;
+  --accent: #88c0d0; --accent-hover: #8fbcbb;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.3); --shadow-md: 0 4px 12px rgba(0,0,0,0.3); --shadow-lg: 0 8px 24px rgba(0,0,0,0.4);
+  --md-bg: #2e3440; --md-text: #eceff4; --md-heading: #eceff4; --md-link: #88c0d0;
+  --md-code-bg: #3b4252; --md-code-text: #d8dee9;
+  --md-blockquote-border: #4c566a; --md-blockquote-text: #81a1c1;
+  --md-table-border: #434c5e; --md-table-row-alt: #3b4252; --md-hr: #4c566a;
+}
+
+[data-theme="solarized-dark"] {
+  --bg-primary: #002b36; --bg-secondary: #073642; --bg-tertiary: #0a4050;
+  --bg-hover: #0d4f63; --bg-active: #124d5e;
+  --text-primary: #839496; --text-secondary: #93a1a1; --text-tertiary: #586e75;
+  --border-color: #0a4050; --border-subtle: #073642;
+  --accent: #268bd2; --accent-hover: #2aa0f0;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.4); --shadow-md: 0 4px 12px rgba(0,0,0,0.4); --shadow-lg: 0 8px 24px rgba(0,0,0,0.5);
+  --md-bg: #002b36; --md-text: #839496; --md-heading: #93a1a1; --md-link: #268bd2;
+  --md-code-bg: #073642; --md-code-text: #839496;
+  --md-blockquote-border: #0a4050; --md-blockquote-text: #586e75;
+  --md-table-border: #073642; --md-table-row-alt: #073642; --md-hr: #0a4050;
+}
+
+[data-theme="tokyo-night"] {
+  --bg-primary: #1a1b26; --bg-secondary: #16161e; --bg-tertiary: #24283b;
+  --bg-hover: #2f3349; --bg-active: #3b3f57;
+  --text-primary: #c0caf5; --text-secondary: #a9b1d6; --text-tertiary: #565f89;
+  --border-color: #2f3349; --border-subtle: #24283b;
+  --accent: #7aa2f7; --accent-hover: #89b4fa;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.5); --shadow-md: 0 4px 12px rgba(0,0,0,0.5); --shadow-lg: 0 8px 24px rgba(0,0,0,0.6);
+  --md-bg: #1a1b26; --md-text: #c0caf5; --md-heading: #c0caf5; --md-link: #7aa2f7;
+  --md-code-bg: #24283b; --md-code-text: #a9b1d6;
+  --md-blockquote-border: #2f3349; --md-blockquote-text: #565f89;
+  --md-table-border: #24283b; --md-table-row-alt: #16161e; --md-hr: #2f3349;
+}
+
+[data-theme="catppuccin"] {
+  --bg-primary: #1e1e2e; --bg-secondary: #181825; --bg-tertiary: #313244;
+  --bg-hover: #3b3d52; --bg-active: #45475a;
+  --text-primary: #cdd6f4; --text-secondary: #bac2de; --text-tertiary: #6c7086;
+  --border-color: #45475a; --border-subtle: #313244;
+  --accent: #cba6f7; --accent-hover: #d4b8fa;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.4); --shadow-md: 0 4px 12px rgba(0,0,0,0.4); --shadow-lg: 0 8px 24px rgba(0,0,0,0.5);
+  --md-bg: #1e1e2e; --md-text: #cdd6f4; --md-heading: #cdd6f4; --md-link: #89b4fa;
+  --md-code-bg: #313244; --md-code-text: #cdd6f4;
+  --md-blockquote-border: #45475a; --md-blockquote-text: #6c7086;
+  --md-table-border: #313244; --md-table-row-alt: #181825; --md-hr: #45475a;
+}
+
+/* ═══ Markdown overrides for ALL custom themes ═══ */
+
+[data-theme="github-dimmed"] .markdown-body, [data-theme="dracula"] .markdown-body,
+[data-theme="nord"] .markdown-body, [data-theme="solarized-light"] .markdown-body,
+[data-theme="solarized-dark"] .markdown-body, [data-theme="tokyo-night"] .markdown-body,
+[data-theme="catppuccin"] .markdown-body, [data-theme="one-light"] .markdown-body,
+[data-theme="catppuccin-latte"] .markdown-body, [data-theme="gruvbox-light"] .markdown-body,
+[data-theme="tokyo-night-light"] .markdown-body {
+  color: var(--md-text) !important; background-color: var(--md-bg) !important;
+}
+
+[data-theme="github-dimmed"] .markdown-body :is(h1,h2,h3,h4,h5,h6),
+[data-theme="dracula"] .markdown-body :is(h1,h2,h3,h4,h5,h6),
+[data-theme="nord"] .markdown-body :is(h1,h2,h3,h4,h5,h6),
+[data-theme="solarized-light"] .markdown-body :is(h1,h2,h3,h4,h5,h6),
+[data-theme="solarized-dark"] .markdown-body :is(h1,h2,h3,h4,h5,h6),
+[data-theme="tokyo-night"] .markdown-body :is(h1,h2,h3,h4,h5,h6),
+[data-theme="catppuccin"] .markdown-body :is(h1,h2,h3,h4,h5,h6),
+[data-theme="one-light"] .markdown-body :is(h1,h2,h3,h4,h5,h6),
+[data-theme="catppuccin-latte"] .markdown-body :is(h1,h2,h3,h4,h5,h6),
+[data-theme="gruvbox-light"] .markdown-body :is(h1,h2,h3,h4,h5,h6),
+[data-theme="tokyo-night-light"] .markdown-body :is(h1,h2,h3,h4,h5,h6) {
+  color: var(--md-heading) !important; border-bottom-color: var(--md-table-border) !important;
+}
+
+[data-theme="github-dimmed"] .markdown-body a, [data-theme="dracula"] .markdown-body a,
+[data-theme="nord"] .markdown-body a, [data-theme="solarized-light"] .markdown-body a,
+[data-theme="solarized-dark"] .markdown-body a, [data-theme="tokyo-night"] .markdown-body a,
+[data-theme="catppuccin"] .markdown-body a, [data-theme="one-light"] .markdown-body a,
+[data-theme="catppuccin-latte"] .markdown-body a, [data-theme="gruvbox-light"] .markdown-body a,
+[data-theme="tokyo-night-light"] .markdown-body a { color: var(--md-link) !important; }
+
+[data-theme="github-dimmed"] .markdown-body code, [data-theme="dracula"] .markdown-body code,
+[data-theme="nord"] .markdown-body code, [data-theme="solarized-light"] .markdown-body code,
+[data-theme="solarized-dark"] .markdown-body code, [data-theme="tokyo-night"] .markdown-body code,
+[data-theme="catppuccin"] .markdown-body code, [data-theme="one-light"] .markdown-body code,
+[data-theme="catppuccin-latte"] .markdown-body code, [data-theme="gruvbox-light"] .markdown-body code,
+[data-theme="tokyo-night-light"] .markdown-body code { background: var(--md-code-bg) !important; color: var(--md-code-text) !important; }
+
+[data-theme="github-dimmed"] .markdown-body pre, [data-theme="dracula"] .markdown-body pre,
+[data-theme="nord"] .markdown-body pre, [data-theme="solarized-light"] .markdown-body pre,
+[data-theme="solarized-dark"] .markdown-body pre, [data-theme="tokyo-night"] .markdown-body pre,
+[data-theme="catppuccin"] .markdown-body pre, [data-theme="one-light"] .markdown-body pre,
+[data-theme="catppuccin-latte"] .markdown-body pre, [data-theme="gruvbox-light"] .markdown-body pre,
+[data-theme="tokyo-night-light"] .markdown-body pre { background: var(--md-code-bg) !important; color: var(--md-code-text) !important; }
+
+[data-theme="github-dimmed"] .markdown-body table :is(th,td), [data-theme="dracula"] .markdown-body table :is(th,td),
+[data-theme="nord"] .markdown-body table :is(th,td), [data-theme="solarized-light"] .markdown-body table :is(th,td),
+[data-theme="solarized-dark"] .markdown-body table :is(th,td), [data-theme="tokyo-night"] .markdown-body table :is(th,td),
+[data-theme="catppuccin"] .markdown-body table :is(th,td), [data-theme="one-light"] .markdown-body table :is(th,td),
+[data-theme="catppuccin-latte"] .markdown-body table :is(th,td), [data-theme="gruvbox-light"] .markdown-body table :is(th,td),
+[data-theme="tokyo-night-light"] .markdown-body table :is(th,td) { border-color: var(--md-table-border) !important; }
+
+[data-theme="github-dimmed"] .markdown-body table tr:nth-child(2n), [data-theme="dracula"] .markdown-body table tr:nth-child(2n),
+[data-theme="nord"] .markdown-body table tr:nth-child(2n), [data-theme="solarized-light"] .markdown-body table tr:nth-child(2n),
+[data-theme="solarized-dark"] .markdown-body table tr:nth-child(2n), [data-theme="tokyo-night"] .markdown-body table tr:nth-child(2n),
+[data-theme="catppuccin"] .markdown-body table tr:nth-child(2n), [data-theme="one-light"] .markdown-body table tr:nth-child(2n),
+[data-theme="catppuccin-latte"] .markdown-body table tr:nth-child(2n), [data-theme="gruvbox-light"] .markdown-body table tr:nth-child(2n),
+[data-theme="tokyo-night-light"] .markdown-body table tr:nth-child(2n) { background: var(--md-table-row-alt) !important; }
+
+[data-theme="github-dimmed"] .markdown-body blockquote, [data-theme="dracula"] .markdown-body blockquote,
+[data-theme="nord"] .markdown-body blockquote, [data-theme="solarized-light"] .markdown-body blockquote,
+[data-theme="solarized-dark"] .markdown-body blockquote, [data-theme="tokyo-night"] .markdown-body blockquote,
+[data-theme="catppuccin"] .markdown-body blockquote, [data-theme="one-light"] .markdown-body blockquote,
+[data-theme="catppuccin-latte"] .markdown-body blockquote, [data-theme="gruvbox-light"] .markdown-body blockquote,
+[data-theme="tokyo-night-light"] .markdown-body blockquote { border-left-color: var(--md-blockquote-border) !important; color: var(--md-blockquote-text) !important; }
+
+[data-theme="github-dimmed"] .markdown-body hr, [data-theme="dracula"] .markdown-body hr,
+[data-theme="nord"] .markdown-body hr, [data-theme="solarized-light"] .markdown-body hr,
+[data-theme="solarized-dark"] .markdown-body hr, [data-theme="tokyo-night"] .markdown-body hr,
+[data-theme="catppuccin"] .markdown-body hr, [data-theme="one-light"] .markdown-body hr,
+[data-theme="catppuccin-latte"] .markdown-body hr, [data-theme="gruvbox-light"] .markdown-body hr,
+[data-theme="tokyo-night-light"] .markdown-body hr { background-color: var(--md-hr) !important; }

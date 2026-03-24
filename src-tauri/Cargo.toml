@@ -1,0 +1,29 @@
+[package]
+name = "voir"
+version = "0.1.0"
+description = "A fast Markdown viewer for Windows"
+authors = ["Voir"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+tauri-plugin-fs = "2"
+tauri-plugin-shell = "2"
+tauri-plugin-window-state = "2"
+tauri-plugin-single-instance = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+pulldown-cmark = { version = "0.12", features = ["html"] }
+notify = { version = "7" }
+walkdir = "2"
+open = "5"
+dirs = "6"
+clap = { version = "4", features = ["derive"] }
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]

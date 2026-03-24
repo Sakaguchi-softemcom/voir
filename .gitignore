@@ -1,0 +1,28 @@
+# Rust
+/src-tauri/target/
+**/*.rs.bk
+
+# Node
+/node_modules/
+
+# Generated vendor bundles (recreated by: npm run vendor)
+/src/vendor/
+
+# Tauri
+/src-tauri/WixTools/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.*
